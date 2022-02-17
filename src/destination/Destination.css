@@ -1,0 +1,54 @@
+.Destination{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: 0px 10px 30px 10px;
+    box-shadow: 0px 2px 5px lightgrey;
+    border-radius: 3px;
+}
+
+.image{
+    height: 55%;
+    width: 100%;
+    background-color: pink;
+    object-fit: cover;
+}
+
+.wrap-half{
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrap-top{
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 10px;
+}
+
+.titl-add{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.nom{
+    font-size: large;
+    font-weight: 600;
+}
+
+.lever{
+    margin: auto;
+}
+
+.wrap-bot{
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    border-top: 1px solid #ebebeb;
+    padding: 0 10px;
+}

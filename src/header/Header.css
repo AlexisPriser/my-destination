@@ -1,0 +1,26 @@
+.Header{
+    margin: 0px 10px 40px 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.titre{
+flex-grow: 1;
+font-size: xx-large;
+font-weight: 100;
+}
+
+.button{
+    background-color: #3FD48B;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
+
+.button:hover{
+    color:#3FD48B;
+    background-color: white;
+}

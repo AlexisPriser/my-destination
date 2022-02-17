@@ -1,0 +1,11 @@
+.Data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.number{
+    font-weight: 600;
+}
